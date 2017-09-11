@@ -86,7 +86,7 @@ int is_subset(char *sub, char *string){
 }
 
 /* Definition for anagram is taken from lecture06 slides. Follows the same
-logic as is_subset. Just that at this time, we will be checking if all the
+logic as is_subset, except that at this time, we will be checking if all the
 values in lookup[] are 0.
 */
 int is_anagram(char *s1, char *s2){
